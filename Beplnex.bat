@@ -1,6 +1,6 @@
 @echo off
 setlocal enabledelayedexpansion
-title ii.menu Installer
+title Beplnex Installer
 color 0e
 
 set "steamPath1=C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag"
@@ -24,7 +24,7 @@ if not exist "%gamePath%" (
 
 :gotpath
 cls
-title ii.menu InstalleBeplnex -- Downloading BepInEx
+title Beplnex InstalleBeplnex -- Downloading BepInEx
 color 0e
 echo.
 echo  Beplnex
